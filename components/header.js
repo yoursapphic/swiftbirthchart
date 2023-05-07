@@ -4,7 +4,7 @@ class Header extends HTMLElement {
     const template = document.createElement("template");
     template.innerHTML = `${styles} 
   <header>
-  <a href="/">✨Swift Birth Chart✨</a>
+  <a href="/swiftbirthchart/">✨Swift Birth Chart✨</a>
   </header>
   <div class="subtitle">
     If they don't pull this out on the first date, they're not the one ;)
