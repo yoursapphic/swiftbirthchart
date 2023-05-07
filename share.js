@@ -33,7 +33,7 @@ const signErrorDiv = document.getElementById("signError");
 const createButton = document.getElementById("createButton");
 
 createButton.addEventListener("click", () => {
-  window.location.replace("/");
+  window.location.replace("/swiftbirthchart/");
 });
 
 try {
