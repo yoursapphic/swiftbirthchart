@@ -1,0 +1,149 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Grand+Hotel&family=Luckiest+Guy&family=Unica+One&display=swap');
+
+:root {
+  --cocoa-brown: #df7026;
+  --persian-orange: #ec9962;
+  --magnolia: #ebecf8;
+  --sky-magenta: #da5ca7;
+  --fandango: #b04486;
+  --murrey: #900458;
+  --yale-blue: #0c326c;
+  --marian-blue: #094195;
+  --grand-hotel: 'Grand Hotel', cursive;;
+  --unica-one: 'Unica One', cursive;
+  --cinzel-decorative: 'Cinzel Decorative', cursive;
+  --luckiest-guy: 'Luckiest Guy', cursive;
+}
+
+html {
+  background-color: var(--sky-magenta);
+}
+
+body {
+  max-width: 1125px;
+  color: var(--magnolia);
+}
+
+footer {
+  margin-top: 40px !important;
+  margin-bottom: 40px;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  font-family: var(--grand-hotel);
+  font-size: 36px;
+  text-align: center;
+}
+
+label {
+    font-family: var(--unica-one);
+    font-size: 20px;
+}
+
+select {
+  padding: 7px;
+  border-radius: 10px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  text-align: center;
+  background-color: var(--cocoa-brown);
+  border-color: var(--magnolia);
+  color: var(--magnolia);
+  font-family: var(--unica-one);
+  font-size: 16px;
+}
+
+
+select:hover {
+  background-color: var(--persian-orange);
+}
+
+a {
+  color: var(--magnolia);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--yale-blue);
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  font-family: var(--grand-hotel);
+  font-size: 48px;
+  text-decoration: overline underline;
+}
+
+.box {
+  background-color: var(--fandango) !important;
+  color: var(--magnolia) !important;
+}
+
+.navbar {
+  background-color: var(--sky-magenta);
+  color: var(--magnolia);
+}
+
+.validation-error {
+  color: var(--magnolia);
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: var(--luckiest-guy);
+}
+
+.birth-chart-grid {
+  text-align: center;
+  border-style: solid;
+  border-width: 1rem;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.birth-chart-title {
+    font-family: var(--cinzel-decorative);
+    font-size: 36px;
+    text-decoration: overline;
+}
+
+.button-div {
+  text-align: center;
+  margin: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.primary-button {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--murrey);
+  border-color: var(--magnolia);
+  border-style: solid;
+  color: var(--magnolia);
+  font-family: var(--unica-one);
+  font-size: 24px;
+}
+
+.primary-button:hover {
+  background-color: var(--fandango);
+  cursor: pointer;
+}
+
+.sign-selectors {
+  text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+    font-family: var(--luckiest-guy);
+    color: var(--murrey);
+    padding-bottom: 20px;
+    font-size: 24px;
+    -webkit-text-stroke: 1px var(--magnolia);
+}

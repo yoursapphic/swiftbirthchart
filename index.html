@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Swift Birth Chart</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="components/head.js"></script>
+    <script src="data.js"></script>
+    <script src="global.js"></script>
+    <script src="components/header.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="components/signSelector.js"></script>
+  </head>
+  <body class="container is-fluid">
+    <custom-header></custom-header>
+    <main>
+      <div class="box">
+        <div class="columns is-multiline sign-selectors">
+          <sign-selector class="column" id="sunSign">
+            <span slot="label">Sun Sign</span>
+          </sign-selector>
+          <sign-selector class="column" id="moonSign">
+            <span slot="label">Moon Sign</span>
+          </sign-selector>
+          <sign-selector class="column" id="risingSign">
+            <span slot="label">Rising Sign</span>
+          </sign-selector>
+          <sign-selector class="column" id="venusSign">
+            <span slot="label">Venus Sign</span>
+          </sign-selector>
+        </div>
+
+        <div class="button-div">
+          <button class="primary-button" id="analyzeButton">
+            Create My Birthchart!
+          </button>
+        </div>
+      </div>
+
+      <div id="birthChartContainer"></div>
+      <div class="button-div">
+        <button class="primary-button hidden" id="shareButton">Share</button>
+      </div>
+    </main>
+    <custom-footer
+      ><a href="https://twitter.com/yoursapphic" target="_blank"
+        >@yoursapphic</a
+      ></custom-footer
+    >
+    <script src="main.js"></script>
+  </body>
+</html>

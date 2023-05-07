@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Swift Birth Chart</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="components/head.js"></script>
+    <script src="data.js"></script>
+    <script src="global.js"></script>
+    <script src="components/header.js"></script>
+    <script src="components/footer.js"></script>
+  </head>
+  <body class="container is-fluid">
+    <custom-header></custom-header>
+    <main>
+      <div id="birthChartContainer"></div>
+      <div id="signError" class="hidden validation-error">
+        [This URL Is Broken :/]
+      </div>
+      <div class="button-div">
+        <button class="primary-button" id="createButton">Create Your Own!</button>
+      </div>
+    </main>
+    <custom-footer
+      ><a href="https://twitter.com/yoursapphic" target="_blank"
+        >@yoursapphic</a
+      ></custom-footer
+    >
+    <script src="share.js"></script>
+  </body>
+</html>
